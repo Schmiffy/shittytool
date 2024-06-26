@@ -4,6 +4,11 @@ document.addEventListener('DOMContentLoaded', () => {
         "Oracle DB"
     ];
 
+    // Get existing tools from localStorage
+  // this doesn't work
+  //  const storedTools = JSON.parse(localStorage.getItem('tools')) || [];
+  //  const tools = [...defaultTools, ...storedTools.map(tool => tool.name)];
+
     const randomToolBtn = document.getElementById('randomToolBtn');
     const randomToolDisplay = document.getElementById('randomToolDisplay');
 
