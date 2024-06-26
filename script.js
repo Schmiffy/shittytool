@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     const tools = [
-        "Hammer", "Screwdriver", "Wrench", "Pliers", "Saw",
-        "Tape Measure", "Level", "Drill", "Sander", "Chisel"
+        "Teams", "Odoo", "PowerBI", "Word", "Excel",
+        "Oracle DB"
     ];
 
     const randomToolBtn = document.getElementById('randomToolBtn');
